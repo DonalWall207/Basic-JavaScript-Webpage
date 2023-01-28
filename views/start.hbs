@@ -1,0 +1,51 @@
+{{> menu}}
+
+<section class="ui two column grid segment">
+  <div class="ui column">
+    <h2>Welcome to My Web App, {{fullname}}</h2>
+      <p>
+        This application contains a list of my favourite films that I have seen recently, and it will allow you to add
+        and delete to my favourites, if you have any suggestions.
+      </p>
+      <div class="buttons">
+        <button class="ui blue button" onclick="showHide()">
+          Read more <i class="arrow circle right icon"></i>
+        </button>
+      </div>
+
+      <div id="readmore" class="ui message">
+        <p>
+          If you wish to learn more about me, click on the about myself tab above on the menu
+        </p>  
+      </div>
+      <div id="welcomeuser" class="ui message" onclick="hideWelcome()"> </div>
+    <div class="ui divider"></div>
+
+<h3 class="ui center aligned header">My Web App now contains:</h3>
+<div class="ui two statistics">
+    <div class="ui huge statistic">
+        <div class="value">
+            {{totalFilms}}
+        </div>
+        <div class="label">
+            Film lists
+        </div>
+    </div>
+    <div class="ui huge statistic">
+        <div class="value">
+            {{totalItems}}
+        </div>
+        <div class="label">
+            Films
+        </div>
+    </div>
+</div>
+  </div>
+  <div class="ui column">
+    <div class="ui grid">
+      <div class="ui twenty wide column">
+        <img class="ui circular image" src="https://cdn.glitch.global/b1bcf66e-713c-43f0-91bb-151b59ff9f38/john.jpg?v=1647442242810">
+      </div>
+    </div>
+  </div>
+</section>

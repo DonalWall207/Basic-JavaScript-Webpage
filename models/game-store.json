@@ -1,0 +1,28 @@
+{"game":
+  [
+    {
+      "name":"Read Dead Redemption 2",
+      "fullname":"Red Dead Redemption 2",
+      "image":"https://cdn.glitch.global/b1bcf66e-713c-43f0-91bb-151b59ff9f38/thumbnails_rdr.jpg?v=1647442339154",
+      "released":2018,
+      "genre":"fantastic action",
+      "hours":652
+    },
+    {
+      "name":"Apex Legends",
+      "fullname":"Apex Legends",
+      "image":"https://cdn.glitch.global/484d4aa8-8c24-4659-aec3-5a581fc5471f/apex.jpg?v=1647367122115",
+      "released":2019,
+      "genre":"shooter",
+      "hours":312
+    },
+    {
+      "name":"The Last of Us",
+      "fullname":"The Last of Us",
+      "image":"https://cdn.glitch.global/484d4aa8-8c24-4659-aec3-5a581fc5471f/tlou.jpg?v=1647367001543",
+      "released":2013,
+      "genre":"post-apocalyptic",
+      "hours":126
+    }
+  ]
+}

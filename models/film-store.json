@@ -1,0 +1,36 @@
+{
+  "filmCollection": [
+    {
+      "id": "cab7a3e5-c6ba-4dd4-a9bf-bb154fa0e7f7",
+      "userid": "b955bb2f-9223-4e66-8169-5037b6a84a2d",
+      "title": "Adventure",
+      "picture": "http://res.cloudinary.com/dffcgulkp/image/upload/v1651049148/pczuzhhfivqmmohhffsk.jpg",
+      "date": "2022-04-27T08:45:47.314Z",
+      "items": [
+        {
+          "id": "d35bf686-c1a6-4456-a4db-914f6d0e94d5",
+          "title": "Raiders of the Lost Ark",
+          "director": "Stephen Spielberg",
+          "actor": "Harrison Ford",
+          "duration": "145"
+        }
+      ]
+    },
+    {
+      "id": "bf07be12-f4a6-42a8-8028-17e8cf4bc1ee",
+      "userid": "fbaf2a2c-60ef-4345-a8c8-fd15a713ce17",
+      "title": "test",
+      "picture": "http://res.cloudinary.com/dffcgulkp/image/upload/v1651586149/pyrhsnuaat7dpptui1an.jpg",
+      "date": "2022-05-03T13:55:48.561Z",
+      "items": [
+        {
+          "id": "edd7c67f-877a-4ed1-b83a-70d03efc3b0f",
+          "title": "test",
+          "director": "k",
+          "actor": "k",
+          "duration": "9"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+<form class="ui stacked segment form" action="/filmlist/{{filmlist.id}}/additem" method="POST">
+  <div class="four fields">
+    <div class="field">
+      <label>Film</label>
+      <input type="text" name="title" autofocus required title = "Please include a valid title"
+      placeholder="Film">
+    </div>
+    <div class="field">
+      <label>Director</label>
+      <input type="text" name="director" required actor = "Please include a valid director"
+      placeholder="Director"  >
+    </div>
+  </div>
+  <div class="field">
+      <label>Actor</label>
+      <input type="text" name="actor" required actor = "Please include a valid actor"
+      placeholder="Actor"  >
+    </div>
+  <div class="field">
+      <label>Duration</label>
+      <input type="text" name="duration" required title = "Please include a valid anwser"
+      placeholder="Duration"  >
+    </div>
+  <div class="field">
+      <label>Genre</label>
+      <select name="genre" id="genre">
+    <option value ="Action">Action</option>
+    <option value ="Comedy">Comedy</option>
+    <option value ="Romance">Romance</option>
+    <option value ="Rom-Com">Rom-Com</option>
+    <option value ="Drama">Drama</option>
+</select>
+    </div>
+  <button class="ui blue submit button">Add Film</button>
+</form>
