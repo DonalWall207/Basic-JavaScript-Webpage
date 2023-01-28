@@ -1,0 +1,16 @@
+{{> menu id="game"}}
+
+<section class="ui center aligned middle aligned segment">
+  <h2 class="ui header">
+    These are some of my favourite games of all time: 
+  </h2>
+  <div class="ui centered cards">
+    {{#each game}}
+      {{> card}}
+    {{/each}}
+  </div>
+  <br>
+<button class="ui green button" onclick="alert('Thanks! You\'re okay too')">
+          Like my list? <i class="thumbs up icon"></i>
+        </button>
+</section>

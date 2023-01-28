@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "firstName": "Donal",
+      "lastName": "Wall",
+      "email": "donaljohnwall@gmail.com",
+      "password": "Donal__Wall12",
+      "id": "b955bb2f-9223-4e66-8169-5037b6a84a2d"
+    },
+    {
+      "firstName": "Brenda",
+      "lastName": "Mullally",
+      "email": "bm@wit.ie",
+      "password": "Secret1",
+      "id": "fbaf2a2c-60ef-4345-a8c8-fd15a713ce17"
+    }
+  ]
+}
