@@ -1,4 +1,3 @@
-#Assignment 2
+#Basic Java-Script-Webpage
 
-
-Donal Wall - This is a very basic JavaScript webpage with basic handlebars and some ccs included
+Donal Wall - This is a very basic JavaScript webpage with basic handlebars and some CSS included
